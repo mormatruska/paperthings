@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paperthings | Kağıttan Şeyler</title>
+<meta name="description" content="Paperthings: üretimi bize, yazması sana ait defterler ve kartlar. A5 & A6 defterler, tarif defteri, kitap takip defteri, sohbet oyun kartı ve dikenli iskambil kağıtları.">
+<meta name="theme-color" content="#F4EBE0">
+<meta name="color-scheme" content="light">
+<!-- TODO:ALAN-ADI — "https://ALAN-ADI.com" yer tutucusunu gerçek alan adıyla değiştir (canonical, og:url, og:image, JSON-LD, sitemap.xml, robots.txt) -->
+<link rel="canonical" href="https://ALAN-ADI.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Paperthings">
+<meta property="og:title" content="Paperthings | Kağıttan Şeyler">
+<meta property="og:description" content="Defterler, kartlar ve kağıttan küçük mutluluklar.">
+<meta property="og:url" content="https://ALAN-ADI.com/">
+<!-- TODO:OG — images/og-paperthings.jpg (1200×630) üretilecek -->
+<meta property="og:image" content="https://ALAN-ADI.com/images/og-paperthings.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/figtree-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="js/main.js" defer></script>
+
+<!-- Yapılandırılmış veri. SSS metinleri sayfadaki SSS ile birebir aynı olmalı. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ALAN-ADI.com/#organization",
+      "name": "Paperthings",
+      "alternateName": "Kağıttan Şeyler",
+      "url": "https://ALAN-ADI.com/",
+      "email": "hellopaperthings@gmail.com",
+      "sameAs": ["https://www.instagram.com/hellopaperthings/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ALAN-ADI.com/#website",
+      "name": "Paperthings",
+      "url": "https://ALAN-ADI.com/",
+      "inLanguage": "tr",
+      "publisher": {"@id": "https://ALAN-ADI.com/#organization"}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ALAN-ADI.com/#sss",
+      "inLanguage": "tr",
+      "mainEntity": [
+        {"@type":"Question","name":"Ürünleri nereden satın alabilirim?","acceptedAnswer":{"@type":"Answer","text":"Tüm ürünlerimizi Trendyol ve Shopier mağazalarımızdan satın alabilirsin. Ürün kartlarındaki \"Trendyol'da Gör\" ve \"Shopier'da Gör\" butonları seni doğrudan ilgili mağazaya götürür."}},
+        {"@type":"Question","name":"Siparişi neden bu site üzerinden veremiyorum?","acceptedAnswer":{"@type":"Answer","text":"Bu site, ürünlerimizi tanıtan bir vitrin olarak hazırlandı. Sipariş ve ödeme işlemleri, güvenli ödeme altyapısı sunan Trendyol ve Shopier üzerinden yürütülüyor."}},
+        {"@type":"Question","name":"Kargo ve teslimat süreleri nedir?","acceptedAnswer":{"@type":"Answer","text":"Kargo süresi ve ücreti, siparişi verdiğin mağazadaki ürün sayfasında yer alır. Siparişinin durumunu ve kargo takibini Trendyol veya Shopier hesabından görebilirsin."}},
+        {"@type":"Question","name":"İade ve değişim nasıl yapılır?","acceptedAnswer":{"@type":"Answer","text":"İade ve değişim işlemleri, ürünü satın aldığın platformun (Trendyol veya Shopier) koşullarına göre ilerler. Ürünle ilgili bir sorun yaşarsan hellopaperthings@gmail.com adresine yazabilirsin, birlikte çözüm bulalım."}},
+        {"@type":"Question","name":"A5 ve A6 defter arasında nasıl seçim yapmalıyım?","acceptedAnswer":{"@type":"Answer","text":"A5 (yaklaşık 14,8 × 21 cm), masa başı notlar, planlama ve daha uzun yazılar için geniş bir yazı alanı sunar. A6 (yaklaşık 10,5 × 14,8 cm) ise cebe ve küçük çantalara sığan, hızlı notlar için pratik bir boydur."}},
+        {"@type":"Question","name":"Tanışma Faslı nasıl oynanır, kaç kişiyle oynanabilir?","acceptedAnswer":{"@type":"Answer","text":"Kartlarda sohbeti açan ilginç sorular ve keyifli küçük görevler yer alır. Kartları çekip birlikte yanıtlar, görevleri yerine getirirsiniz. İki ya da daha fazla kişiyle oynanabilir; arkadaş buluşmaları ve flört sofraları için ideal."}},
+        {"@type":"Question","name":"Dikenli İskambil Kağıtları nasıl bir tasarıma sahip?","acceptedAnswer":{"@type":"Answer","text":"Kaktüs illüstrasyonlarıyla tasarlanan destede klasik iskambil kart tipleri (As'tan 10'a sayı kartları, Vale, Kız, Papaz ve Joker) yer alır. Destenin ayrıntılı içeriği için mağaza sayfasındaki ürün açıklamasına bakabilirsin."}},
+        {"@type":"Question","name":"Toplu sipariş veya iş birliği için kime ulaşmalıyım?","acceptedAnswer":{"@type":"Answer","text":"Toplu sipariş talepleri ve iş birliği önerileri için hellopaperthings@gmail.com adresinden bize ulaşabilirsin."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- İkonlar (SVG sprite) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-ok" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-asagi" viewBox="0 0 24 24"><path d="M12 5v14m-6-6 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arti" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-posta" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-canta" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 10V7a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+
+<a class="skip" href="#icerik">İçeriğe geç</a>
+
+<header class="ust" id="ust">
+  <div class="wrap ust-ic">
+    <!-- LOGO: logo dosyası gelince bu <a> içindeki iki span'ı
+         <img src="images/logo.svg" alt="Paperthings" width="160" height="40"> ile değiştir. -->
+    <a class="marka" href="#top" aria-label="Paperthings, sayfa başı">
+      <span class="marka-ad">paperthings</span>
+      <span class="marka-alt">Kağıttan Şeyler</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Ana menü">
+      <ul id="menu">
+        <li><a href="#urunler">Ürünler</a></li>
+        <li><a href="#hikaye">Hikâyemiz</a></li>
+        <li><a href="#satin-al">Satın Al</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+        <li><a href="#sss">SSS</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <span id="icerik" tabindex="-1"></span>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-baslik">
+    <div class="wrap">
+      <div class="kapak">
+        <div class="hero-metin">
+          <p class="eyebrow">Kağıttan Şeyler</p>
+          <h1 id="hero-baslik">Kağıdın keyfini günlük hayata taşıyan defterler ve kartlar.</h1>
+          <p class="lead">Paperthings; yazmayı, planlamayı, sohbet etmeyi ve oyun oynamayı biraz daha sıcak, biraz daha neşeli kılmak için tasarlanan kağıt ürünlerin adresi.</p>
+          <div class="hero-butonlar">
+            <a class="btn btn-aksan" href="#urunler">Ürünleri Keşfet <svg class="ik" aria-hidden="true"><use href="#i-asagi"/></svg></a>
+            <a class="btn btn-acik" href="#satin-al">Nereden Alırım?</a>
+          </div>
+        </div>
+        <figure class="hero-gorsel">
+          <span class="bant bant-pudra" aria-hidden="true"></span>
+          <img src="images/ana-gorsel.jpg" width="900" height="900" fetchpriority="high" decoding="async"
+               alt="Suluboya kiraz ağacı illüstrasyonu">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÜRÜNLER -->
+  <section id="urunler" class="bolum" aria-labelledby="urunler-baslik">
+    <div class="wrap">
+      <div class="bolum-bas">
+        <p class="eyebrow">Ürünlerimiz</p>
+        <h2 id="urunler-baslik">Her an için bir kağıt.</h2>
+        <p>Not almak, tarif biriktirmek, okuduklarını kaydetmek ya da arkadaşlarınla uzun bir sohbete dalmak için.</p>
+      </div>
+
+      <!-- Ürün görseli gelince: .urun-gorsel içindeki .silu'yu
+           <img src="images/urunler/<slug>.jpg" width="1200" height="900" loading="lazy" decoding="async" alt="..."> ile değiştir. -->
+      <ul class="urunler" role="list">
+
+        <li class="kart" data-slug="a5-not-defteri" style="--renk:var(--mercan-acik);--bant:var(--pudra)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu defter" aria-hidden="true"></span>
+            <span class="muhur muhur-mercan">Defter</span>
+          </div>
+          <div class="kart-govde">
+            <h3>A5 Not Defteri</h3>
+            <p>Günlük notların, planların ve fikirlerin için ferah bir A5 boyut. Çantada da masada da rahat eder.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (A5 Not Defteri)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (A5 Not Defteri)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+        <li class="kart" data-slug="a6-not-defteri" style="--renk:var(--mor-acik);--bant:var(--teal)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu defter kucuk" aria-hidden="true"></span>
+            <span class="muhur muhur-pudra">Defter</span>
+          </div>
+          <div class="kart-govde">
+            <h3>A6 Not Defteri</h3>
+            <p>Cebe, çantaya ya da yatak başına sığan küçük bir arkadaş. Aniden aklına gelenler için.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (A6 Not Defteri)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (A6 Not Defteri)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+        <li class="kart" data-slug="tarif-defteri" style="--renk:var(--teal-acik);--bant:var(--mercan)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu defter tarif" aria-hidden="true"></span>
+            <span class="muhur muhur-teal">Defter</span>
+          </div>
+          <div class="kart-govde">
+            <h3>Tarif Defteri</h3>
+            <p>Annenin, anneannenin ve kendi denemelerinin tarifleri tek bir yerde birikir. Mutfağın en kişisel defteri.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (Tarif Defteri)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (Tarif Defteri)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+        <li class="kart" data-slug="bi-kitap-daha" style="--renk:var(--pudra-acik);--bant:var(--mor)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu defter kitap" aria-hidden="true"></span>
+            <span class="muhur muhur-erik">Defter</span>
+          </div>
+          <div class="kart-govde">
+            <h3>Bi' Kitap Daha</h3>
+            <p>Okuduklarını takip et, düşüncelerini kaydet. Kitap kurdunun günlüğü.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (Bi' Kitap Daha)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (Bi' Kitap Daha)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+        <li class="kart" data-slug="tanisma-fasli" style="--renk:var(--krem-koyu);--bant:var(--pudra)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu deste" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="muhur muhur-mercan">Kart Oyunu</span>
+          </div>
+          <div class="kart-govde">
+            <h3>Tanışma Faslı</h3>
+            <p>Arkadaş ve flört sofralarına özel ilginç sorular ve keyifli küçük görevler.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (Tanışma Faslı)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (Tanışma Faslı)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+        <li class="kart" data-slug="dikenli-iskambil-kagitlari" style="--renk:var(--teal-acik);--bant:var(--mercan)">
+          <div class="urun-gorsel">
+            <span class="bant" aria-hidden="true"></span>
+            <span class="silu deste kaktus" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="muhur muhur-teal">Kart Oyunu</span>
+          </div>
+          <div class="kart-govde">
+            <h3>Dikenli İskambil Kağıtları</h3>
+            <p>Kaktüs illüstrasyonlu, 14 kart tipinden oluşan eğlenceli bir iskambil destesi. Oyun masasına karakter katar.</p>
+            <div class="al">
+              <a class="btn btn-aksan" href="#">Trendyol'da Gör<span class="sr"> (Dikenli İskambil Kağıtları)</span></a><!-- TODO:LINK -->
+              <a class="btn btn-cizgi" href="#">Shopier'da Gör<span class="sr"> (Dikenli İskambil Kağıtları)</span></a><!-- TODO:LINK -->
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- HİKÂYEMİZ (koyu kutu) -->
+  <section id="hikaye" class="bolum bolum-kutu" aria-labelledby="hikaye-baslik">
+    <div class="wrap">
+      <div class="kutu">
+        <span class="bant bant-teal" aria-hidden="true"></span>
+        <div class="kutu-ic">
+          <p class="eyebrow">Hikâyemiz</p>
+          <h2 id="hikaye-baslik">Tasarım bizden, hikâye senden.</h2>
+          <p>Paperthings, kağıdın dokunulabilir olmasının hâlâ çok değerli olduğu inancıyla yola çıktı. Her ürünü özenle tasarlıyor; sıcak renklerle ve biraz da oyunbazlıkla şekillendiriyoruz.</p>
+          <p>Amacımız basit: Elinde tuttuğunda gülümseten, kullandıkça sana ait olan kağıt ürünler yapmak.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SATIN AL -->
+  <section id="satin-al" class="bolum" aria-labelledby="satin-al-baslik">
+    <div class="wrap">
+      <div class="bolum-bas">
+        <p class="eyebrow">Satın Al</p>
+        <h2 id="satin-al-baslik">Paperthings'i nereden alabilirim?</h2>
+        <p>Ürünlerimizi güvenle alışveriş yapabileceğin iki mağazamızdan da sipariş verebilirsin.</p>
+      </div>
+      <div class="kanallar">
+        <div class="kanal kanal-mercan">
+          <svg class="kanal-ik" aria-hidden="true"><use href="#i-canta"/></svg>
+          <h3>Trendyol</h3>
+          <p>Hızlı kargo ve Trendyol güvencesiyle tüm ürünlerimize ulaş.</p>
+          <a class="btn btn-aksan" href="#">Trendyol Mağazamız <svg class="ik" aria-hidden="true"><use href="#i-ok"/></svg></a><!-- TODO:LINK -->
+        </div>
+        <div class="kanal kanal-teal">
+          <svg class="kanal-ik" aria-hidden="true"><use href="#i-canta"/></svg>
+          <h3>Shopier</h3>
+          <p>Shopier mağazamızdan güvenli ödeme ile sipariş verebilirsin.</p>
+          <a class="btn btn-aksan" href="#">Shopier Mağazamız <svg class="ik" aria-hidden="true"><use href="#i-ok"/></svg></a><!-- TODO:LINK -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM (koyu kutu) -->
+  <section id="iletisim" class="bolum bolum-kutu" aria-labelledby="iletisim-baslik">
+    <div class="wrap">
+      <div class="kutu kutu-iletisim">
+        <span class="bant bant-mercan" aria-hidden="true"></span>
+        <div class="kutu-ic">
+          <p class="eyebrow">İletişim</p>
+          <h2 id="iletisim-baslik">Bize yaz.</h2>
+          <p>Sorularını, toplu sipariş taleplerini ya da fikirlerini duymaktan mutluluk duyarız.</p>
+        </div>
+        <a class="btn btn-acik eposta" href="mailto:hellopaperthings@gmail.com"><svg class="ik" aria-hidden="true"><use href="#i-posta"/></svg> hellopaperthings@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SSS -->
+  <section id="sss" class="bolum" aria-labelledby="sss-baslik">
+    <div class="wrap sss-grid">
+      <div class="bolum-bas">
+        <p class="eyebrow">SSS</p>
+        <h2 id="sss-baslik">Sıkça Sorulan Sorular</h2>
+        <p>Aklına takılan bir şey mi var? Sık sorulan soruların yanıtlarına buradan bakabilirsin.</p>
+      </div>
+
+      <div class="sss">
+        <details>
+          <summary>Ürünleri nereden satın alabilirim?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Tüm ürünlerimizi Trendyol ve Shopier mağazalarımızdan satın alabilirsin. Ürün kartlarındaki "Trendyol'da Gör" ve "Shopier'da Gör" butonları seni doğrudan ilgili mağazaya götürür.</p></div>
+        </details>
+        <details>
+          <summary>Siparişi neden bu site üzerinden veremiyorum?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Bu site, ürünlerimizi tanıtan bir vitrin olarak hazırlandı. Sipariş ve ödeme işlemleri, güvenli ödeme altyapısı sunan Trendyol ve Shopier üzerinden yürütülüyor.</p></div>
+        </details>
+        <details>
+          <summary>Kargo ve teslimat süreleri nedir?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Kargo süresi ve ücreti, siparişi verdiğin mağazadaki ürün sayfasında yer alır. Siparişinin durumunu ve kargo takibini Trendyol veya Shopier hesabından görebilirsin.</p></div>
+        </details>
+        <details>
+          <summary>İade ve değişim nasıl yapılır?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>İade ve değişim işlemleri, ürünü satın aldığın platformun (Trendyol veya Shopier) koşullarına göre ilerler. Ürünle ilgili bir sorun yaşarsan <a href="mailto:hellopaperthings@gmail.com">hellopaperthings@gmail.com</a> adresine yazabilirsin, birlikte çözüm bulalım.</p></div>
+        </details>
+        <details>
+          <summary>A5 ve A6 defter arasında nasıl seçim yapmalıyım?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>A5 (yaklaşık 14,8 × 21 cm), masa başı notlar, planlama ve daha uzun yazılar için geniş bir yazı alanı sunar. A6 (yaklaşık 10,5 × 14,8 cm) ise cebe ve küçük çantalara sığan, hızlı notlar için pratik bir boydur.</p></div>
+        </details>
+        <details>
+          <summary>Tanışma Faslı nasıl oynanır, kaç kişiyle oynanabilir?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Kartlarda sohbeti açan ilginç sorular ve keyifli küçük görevler yer alır. Kartları çekip birlikte yanıtlar, görevleri yerine getirirsiniz. İki ya da daha fazla kişiyle oynanabilir; arkadaş buluşmaları ve flört sofraları için ideal.</p></div>
+        </details>
+        <details>
+          <summary>Dikenli İskambil Kağıtları nasıl bir tasarıma sahip?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Kaktüs illüstrasyonlarıyla tasarlanan destede klasik iskambil kart tipleri (As'tan 10'a sayı kartları, Vale, Kız, Papaz ve Joker) yer alır. Destenin ayrıntılı içeriği için mağaza sayfasındaki ürün açıklamasına bakabilirsin.</p></div>
+        </details>
+        <details>
+          <summary>Toplu sipariş veya iş birliği için kime ulaşmalıyım?<svg class="ik" aria-hidden="true"><use href="#i-arti"/></svg></summary>
+          <div class="cevap"><p>Toplu sipariş talepleri ve iş birliği önerileri için <a href="mailto:hellopaperthings@gmail.com">hellopaperthings@gmail.com</a> adresinden bize ulaşabilirsin.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="alt">
+  <div class="wrap">
+    <div class="alt-ic">
+      <a class="marka" href="#top" aria-label="Paperthings, sayfa başı">
+        <span class="marka-ad">paperthings</span>
+        <span class="marka-alt">Kağıttan Şeyler</span>
+      </a>
+      <ul class="alt-linkler">
+        <li><a href="https://www.instagram.com/hellopaperthings/" target="_blank" rel="noopener"><svg class="ik" aria-hidden="true"><use href="#i-insta"/></svg> Instagram</a></li>
+        <li><a href="#">Trendyol</a></li><!-- TODO:LINK -->
+        <li><a href="#">Shopier</a></li><!-- TODO:LINK -->
+      </ul>
+    </div>
+    <p class="telif">© <span id="yil">2026</span> Paperthings. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+</body>
+</html>

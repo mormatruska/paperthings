@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO:ALAN-ADI
+Sitemap: https://ALAN-ADI.com/sitemap.xml
